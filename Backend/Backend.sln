@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F4F52B1B-F63B-48E1-854C-ED82B4A338F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{CBBFAA1E-67AC-411D-BB34-C9F2F7D950F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{D270C7C2-2898-42C5-95FC-2A7CF0C39CD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{62F5419C-321F-46D5-8327-A8441CE236ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{96A426CF-0DE4-4366-BCE7-C5D729E7DBF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integrations", "Integrations", "{1CCD3F16-2CAB-48A7-BCB3-207689F9DBE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integrations.Allegro", "Integrations\Integrations.Allegro\Integrations.Allegro.csproj", "{8385A2D3-35DF-4972-8C86-0C1CCECBA233}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2343A10-91E8-4687-822A-0A675F045E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2343A10-91E8-4687-822A-0A675F045E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2343A10-91E8-4687-822A-0A675F045E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2343A10-91E8-4687-822A-0A675F045E7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBBFAA1E-67AC-411D-BB34-C9F2F7D950F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBBFAA1E-67AC-411D-BB34-C9F2F7D950F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBBFAA1E-67AC-411D-BB34-C9F2F7D950F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBBFAA1E-67AC-411D-BB34-C9F2F7D950F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D270C7C2-2898-42C5-95FC-2A7CF0C39CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D270C7C2-2898-42C5-95FC-2A7CF0C39CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D270C7C2-2898-42C5-95FC-2A7CF0C39CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D270C7C2-2898-42C5-95FC-2A7CF0C39CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62F5419C-321F-46D5-8327-A8441CE236ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62F5419C-321F-46D5-8327-A8441CE236ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62F5419C-321F-46D5-8327-A8441CE236ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62F5419C-321F-46D5-8327-A8441CE236ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A426CF-0DE4-4366-BCE7-C5D729E7DBF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A426CF-0DE4-4366-BCE7-C5D729E7DBF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A426CF-0DE4-4366-BCE7-C5D729E7DBF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A426CF-0DE4-4366-BCE7-C5D729E7DBF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8385A2D3-35DF-4972-8C86-0C1CCECBA233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8385A2D3-35DF-4972-8C86-0C1CCECBA233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8385A2D3-35DF-4972-8C86-0C1CCECBA233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8385A2D3-35DF-4972-8C86-0C1CCECBA233}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D3450A7-5D6B-4DCE-917C-7D9C0B3502C4}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CBBFAA1E-67AC-411D-BB34-C9F2F7D950F7} = {F4F52B1B-F63B-48E1-854C-ED82B4A338F1}
+		{D270C7C2-2898-42C5-95FC-2A7CF0C39CD8} = {F4F52B1B-F63B-48E1-854C-ED82B4A338F1}
+		{62F5419C-321F-46D5-8327-A8441CE236ED} = {F4F52B1B-F63B-48E1-854C-ED82B4A338F1}
+		{96A426CF-0DE4-4366-BCE7-C5D729E7DBF7} = {F4F52B1B-F63B-48E1-854C-ED82B4A338F1}
+		{1CCD3F16-2CAB-48A7-BCB3-207689F9DBE4} = {F4F52B1B-F63B-48E1-854C-ED82B4A338F1}
+		{8385A2D3-35DF-4972-8C86-0C1CCECBA233} = {1CCD3F16-2CAB-48A7-BCB3-207689F9DBE4}
+	EndGlobalSection
+EndGlobal

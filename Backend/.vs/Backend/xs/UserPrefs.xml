@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{CBBFAA1E-67AC-411D-BB34-C9F2F7D950F7}|https">
+  <MonoDevelop.Ide.ItemProperties.src.Tests FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Backend PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.src.Application PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.src.Infrastructure FirstBuild="True" />
+  <DisabledProjects>
+    <String>Integrations.Allegro/Integrations.Allegro.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/Program.cs">
+    <Files>
+      <File FileName="Application/Program.cs" Line="15" Column="22" />
+      <File FileName="Application/Controllers/WeatherForecastController.cs" Line="12" Column="7" />
+      <File FileName="Application/WeatherForecast.cs" Line="14" Column="1" />
+      <File FileName="Domain/Program.cs" Line="8" Column="1" />
+      <File FileName="Infrastructure/Program.cs" Line="8" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Backend" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="Integrations" expanded="True">
+                <Node name="Integrations.Allegro" selected="True" />
+              </Node>
+              <Node name="Infrastructure" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.src.Domain FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
