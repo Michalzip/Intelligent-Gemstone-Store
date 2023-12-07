@@ -4,10 +4,10 @@
     "anonymousAuthentication": true
   },
   "profiles": {
-    "IntelligentStore.Application": {
+    "IntelligentStore.Integrations.Ebay": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:50993",
+      "applicationUrl": "http://localhost:13853",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

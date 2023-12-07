@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JhDr0/tjCEHLYQ3fRAnLYuqyThUfYcC8xeZ5AT/JwQ8=",
+  "Hash": "XAfNPLVCrVtCBelF7tnLs291DlV2WpFoelJ//pWAnQE=",
   "Source": "IntelligentStore.Api",
   "BasePath": "_content/IntelligentStore.Api",
   "Mode": "Default",
@@ -40,7 +40,7 @@
       "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
     },
     {
-      "Identity": "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Allegro/IntelligentStore.Integrations.Ebay.csproj",
+      "Identity": "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Ebay/IntelligentStore.Integrations.Ebay.csproj",
       "Version": 2,
       "Source": "IntelligentStore.Integrations.Ebay",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

@@ -3910,8 +3910,8 @@
     },
     "IntelligentStore.Integrations.Ebay/1.0.0": {
       "type": "project",
-      "path": "../Integrations/Integrations.Allegro/IntelligentStore.Integrations.Ebay.csproj",
-      "msbuildProject": "../Integrations/Integrations.Allegro/IntelligentStore.Integrations.Ebay.csproj"
+      "path": "../Integrations/Integrations.Ebay/IntelligentStore.Integrations.Ebay.csproj",
+      "msbuildProject": "../Integrations/Integrations.Ebay/IntelligentStore.Integrations.Ebay.csproj"
     },
     "Shared/1.0.0": {
       "type": "project",
@@ -3956,8 +3956,8 @@
             "/Users/michal/Desktop/PreciousStonesShop/Backend/Application/IntelligentStore.Application.csproj": {
               "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Application/IntelligentStore.Application.csproj"
             },
-            "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Allegro/IntelligentStore.Integrations.Ebay.csproj": {
-              "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Allegro/IntelligentStore.Integrations.Ebay.csproj"
+            "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Ebay/IntelligentStore.Integrations.Ebay.csproj": {
+              "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Ebay/IntelligentStore.Integrations.Ebay.csproj"
             },
             "/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Shared.csproj": {
               "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Shared.csproj"

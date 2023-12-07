@@ -13,7 +13,6 @@ namespace IntelligentStore.Infrastructure.Token
 {
     public class TokenService : ITokenService
     {
-
         public string APPLICATION_JWT_KEY { get; } = CookieKeys.APPLICATION_JWT_KEY;
 
         private readonly SymmetricSecurityKey _key;
@@ -34,7 +33,7 @@ namespace IntelligentStore.Infrastructure.Token
             var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.NameIdentifier, id),
-                new Claim(ClaimTypes.Email,email)
+                new Claim(ClaimTypes.Email, email)
             };
 
             var tokenDescriptor = new SecurityTokenDescriptor
@@ -67,8 +66,5 @@ namespace IntelligentStore.Infrastructure.Token
 
             return new ClaimUser { Id = userId, Email = email };
         }
-
-       
     }
 }
-

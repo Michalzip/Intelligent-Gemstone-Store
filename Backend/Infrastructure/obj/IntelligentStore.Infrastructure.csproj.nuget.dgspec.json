@@ -177,8 +177,8 @@
               "/Users/michal/Desktop/PreciousStonesShop/Backend/Application/IntelligentStore.Application.csproj": {
                 "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Application/IntelligentStore.Application.csproj"
               },
-              "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Allegro/IntelligentStore.Integrations.Ebay.csproj": {
-                "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Allegro/IntelligentStore.Integrations.Ebay.csproj"
+              "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Ebay/IntelligentStore.Integrations.Ebay.csproj": {
+                "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Ebay/IntelligentStore.Integrations.Ebay.csproj"
               },
               "/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Shared.csproj": {
                 "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Shared.csproj"
@@ -224,14 +224,14 @@
         }
       }
     },
-    "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Allegro/IntelligentStore.Integrations.Ebay.csproj": {
+    "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Ebay/IntelligentStore.Integrations.Ebay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Allegro/IntelligentStore.Integrations.Ebay.csproj",
+        "projectUniqueName": "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Ebay/IntelligentStore.Integrations.Ebay.csproj",
         "projectName": "IntelligentStore.Integrations.Ebay",
-        "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Allegro/IntelligentStore.Integrations.Ebay.csproj",
+        "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Ebay/IntelligentStore.Integrations.Ebay.csproj",
         "packagesPath": "/Users/michal/.nuget/packages/",
-        "outputPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Allegro/obj/",
+        "outputPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Ebay/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/michal/.nuget/NuGet/NuGet.Config"

@@ -4222,8 +4222,8 @@
     },
     "IntelligentStore.Integrations.Ebay/1.0.0": {
       "type": "project",
-      "path": "../Integrations/Integrations.Allegro/IntelligentStore.Integrations.Ebay.csproj",
-      "msbuildProject": "../Integrations/Integrations.Allegro/IntelligentStore.Integrations.Ebay.csproj"
+      "path": "../Integrations/Integrations.Ebay/IntelligentStore.Integrations.Ebay.csproj",
+      "msbuildProject": "../Integrations/Integrations.Ebay/IntelligentStore.Integrations.Ebay.csproj"
     },
     "Shared/1.0.0": {
       "type": "project",

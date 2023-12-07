@@ -34,8 +34,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Update="Properties\launchSettings.json">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <CopyToPublishDirectory>Never</CopyToPublishDirectory>
     </Content>
   </ItemGroup>
@@ -46,7 +44,7 @@
     <ProjectReference Include="..\Application\IntelligentStore.Application.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
-    <ProjectReference Include="..\Integrations\Integrations.Allegro\IntelligentStore.Integrations.Ebay.csproj">
+    <ProjectReference Include="..\Integrations\Integrations.Ebay\IntelligentStore.Integrations.Ebay.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
   </ItemGroup>

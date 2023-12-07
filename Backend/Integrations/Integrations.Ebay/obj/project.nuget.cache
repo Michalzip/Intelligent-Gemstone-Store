@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mE2j8GmZ8EFS/Inmx0+AxWisnQCZDkN+XI8RngW8Bw/H383US9H23mkKVd1NhFZw2Iht3X56UBX0iIHNEh0RXQ==",
+  "dgSpecHash": "qMeizRMhTWYTnckAw/4RxFaUZI8usfDSMIxJ3mrCn/PLTIpw3UTVIqn1ZD8vF7MrDzorTTZyfk1GS9uyFS5VXA==",
   "success": true,
-  "projectFilePath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Allegro/IntelligentStore.Integrations.Ebay.csproj",
+  "projectFilePath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Ebay/IntelligentStore.Integrations.Ebay.csproj",
   "expectedPackageFiles": [
     "/Users/michal/.nuget/packages/ardalis.guardclauses/4.1.1/ardalis.guardclauses.4.1.1.nupkg.sha512",
     "/Users/michal/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
