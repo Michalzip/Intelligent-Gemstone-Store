@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "y9qXbFst+j0w/IH385K3hSeo4yR0lwzNOwlrMXs6GnU=",
+  "Source": "IntelligentStore.Domain",
+  "BasePath": "_content/IntelligentStore.Domain",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Shared.csproj",
+      "Version": 2,
+      "Source": "Shared",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

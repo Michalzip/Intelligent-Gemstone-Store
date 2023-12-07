@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/IntelligentStore.Integrations.Allegro.props" />
+</Project>

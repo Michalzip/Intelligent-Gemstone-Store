@@ -1,0 +1,466 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/michal/Desktop/PreciousStonesShop/Backend/Api/IntelligentStore.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/michal/Desktop/PreciousStonesShop/Backend/Api/IntelligentStore.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/michal/Desktop/PreciousStonesShop/Backend/Api/IntelligentStore.Api.csproj",
+        "projectName": "IntelligentStore.Api",
+        "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Api/IntelligentStore.Api.csproj",
+        "packagesPath": "/Users/michal/.nuget/packages/",
+        "outputPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/michal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.308/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/michal/Desktop/PreciousStonesShop/Backend/Infrastructure/IntelligentStore.Infrastructure.csproj": {
+                "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Infrastructure/IntelligentStore.Infrastructure.csproj"
+              },
+              "/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Shared.csproj": {
+                "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/michal/Desktop/PreciousStonesShop/Backend/Application/IntelligentStore.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/michal/Desktop/PreciousStonesShop/Backend/Application/IntelligentStore.Application.csproj",
+        "projectName": "IntelligentStore.Application",
+        "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Application/IntelligentStore.Application.csproj",
+        "packagesPath": "/Users/michal/.nuget/packages/",
+        "outputPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/michal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.308/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/michal/Desktop/PreciousStonesShop/Backend/Domain/IntelligentStore.Domain.csproj": {
+                "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Domain/IntelligentStore.Domain.csproj"
+              },
+              "/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Shared.csproj": {
+                "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/michal/Desktop/PreciousStonesShop/Backend/Domain/IntelligentStore.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/michal/Desktop/PreciousStonesShop/Backend/Domain/IntelligentStore.Domain.csproj",
+        "projectName": "IntelligentStore.Domain",
+        "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Domain/IntelligentStore.Domain.csproj",
+        "packagesPath": "/Users/michal/.nuget/packages/",
+        "outputPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/michal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.308/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Shared.csproj": {
+                "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/michal/Desktop/PreciousStonesShop/Backend/Infrastructure/IntelligentStore.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/michal/Desktop/PreciousStonesShop/Backend/Infrastructure/IntelligentStore.Infrastructure.csproj",
+        "projectName": "IntelligentStore.Infrastructure",
+        "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Infrastructure/IntelligentStore.Infrastructure.csproj",
+        "packagesPath": "/Users/michal/.nuget/packages/",
+        "outputPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/michal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.308/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/michal/Desktop/PreciousStonesShop/Backend/Application/IntelligentStore.Application.csproj": {
+                "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Application/IntelligentStore.Application.csproj"
+              },
+              "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Allegro/IntelligentStore.Integrations.Ebay.csproj": {
+                "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Allegro/IntelligentStore.Integrations.Ebay.csproj"
+              },
+              "/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Shared.csproj": {
+                "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Allegro/IntelligentStore.Integrations.Ebay.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Allegro/IntelligentStore.Integrations.Ebay.csproj",
+        "projectName": "IntelligentStore.Integrations.Ebay",
+        "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Allegro/IntelligentStore.Integrations.Ebay.csproj",
+        "packagesPath": "/Users/michal/.nuget/packages/",
+        "outputPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Integrations/Integrations.Allegro/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/michal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.308/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/michal/Desktop/PreciousStonesShop/Backend/Application/IntelligentStore.Application.csproj": {
+                "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Application/IntelligentStore.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Ardalis.GuardClauses": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Shared.csproj",
+        "packagesPath": "/Users/michal/.nuget/packages/",
+        "outputPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/michal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.308/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

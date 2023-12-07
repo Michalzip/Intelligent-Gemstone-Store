@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>Library</OutputType>
+    <UserSecretsId>4acc7004-9f73-4c6d-9fd4-2c61e03a1bc7</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <None Remove="Http\" />
+    <None Remove="Providers\" />
+    <None Remove="Storage\" />
+    <None Remove="ValueObjects\AdressValueObjects\HouseNumber\" />
+    <None Remove="ValueObjects\AdressValueObjects\PostalCode\" />
+    <None Remove="ValueObjects\AdressValueObjects\Street\" />
+    <None Remove="ValueObjects\UserValueObjects\" />
+    <None Remove="ValueObjects\UserValueObjects\Email\" />
+    <None Remove="ValueObjects\UserValueObjects\PhoneNumber\" />
+    <None Remove="ValueObjects\AdressValueObjects\City\" />
+    <None Remove="Guid\" />
+    <None Remove="ValueObjects\Common\" />
+    <None Remove="Services\" />
+    <None Remove="Models\" />
+    <None Remove="Middlewares\" />
+    <None Remove="Middlewares\MiddlewareErrorHandle\" />
+    <None Remove="Middlewares\MiddlewareJwtAuthentication\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Http\" />
+    <Folder Include="Providers\" />
+    <Folder Include="Storage\" />
+    <Folder Include="ValueObjects/AdressValueObjects/" />
+    <Folder Include="ValueObjects/Common/CreatedAt/" />
+    <Folder Include="ValueObjects\AdressValueObjects\HouseNumber\" />
+    <Folder Include="ValueObjects\AdressValueObjects\PostalCode\" />
+    <Folder Include="ValueObjects\AdressValueObjects\Street\" />
+    <Folder Include="ValueObjects\UserValueObjects\" />
+    <Folder Include="ValueObjects\UserValueObjects\Email\" />
+    <Folder Include="ValueObjects\UserValueObjects\PhoneNumber\" />
+    <Folder Include="ValueObjects\AdressValueObjects\City\" />
+    <Folder Include="Guid\" />
+    <Folder Include="ValueObjects\Common\" />
+    <Folder Include="Services\" />
+    <Folder Include="Models\" />
+    <Folder Include="Middlewares\" />
+    <Folder Include="Middlewares\MiddlewareErrorHandle\" />
+    <Folder Include="Middlewares\MiddlewareJwtAuthentication\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.5" />
+  </ItemGroup>
+</Project>

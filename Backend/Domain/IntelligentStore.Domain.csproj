@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <None Remove="IRepositories\" />
+    <None Remove="ValueObjects\" />
+    <None Remove="Exceptions\" />
+    <None Remove="Models\" />
+    <None Remove="Services\" />
+    <None Remove="Services\AdminService\" />
+    <None Remove="IInfrastructureServiceInterface\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="IRepositories\" />
+    <Folder Include="ValueObjects\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Models\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\AdminService\" />
+    <Folder Include="IInfrastructureServiceInterface\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Shared\Shared.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
