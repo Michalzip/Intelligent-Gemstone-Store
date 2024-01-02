@@ -7,7 +7,7 @@ The main goal of creating this project was to help store owners who buy precious
 ## Screenshots
 
 <p align="center">
-  <img src="https://github.com/Michalzip/Intelligent-Gemstone-Store/blob/main/img/app.jpg" width="500" height="420" />   
+  <img src="https://github.com/Michalzip/Intelligent-Gemstone-Store/blob/main/img/app.jpg" width="600" height="600" />   
 </p>
 
 ## Task Status
