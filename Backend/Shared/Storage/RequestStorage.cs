@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.Options;
 
 namespace Shared.Storage
 {
@@ -35,7 +36,12 @@ namespace Shared.Storage
             var option = new CookieOptions
             {
                 Expires = DateTime.Now.AddSeconds(expireSeconds ?? 30000),
+                HttpOnly = false,
                 IsEssential = true,
+                SameSite = SameSiteMode.None,
+                Secure = true,
+
+                //Secure = true
             };
             _response.Cookies.Append(key, value, option);
         }

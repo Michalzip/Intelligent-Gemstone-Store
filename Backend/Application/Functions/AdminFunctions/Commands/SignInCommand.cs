@@ -35,9 +35,9 @@ public class AdminSignInCommand : IRequest<ResponseMessage>
         {
             var admin = await _adminService.CheckCredentials(request.Email, request.Password);
 
-            _tokenService.CreateToken(admin.Id.ToString(), admin.Email);
+           var jwtToken =  await _tokenService.CreateToken(admin.Id.ToString(), admin.Email);
 
-            return new ResponseMessage(HttpStatusCode.Accepted, "User Sign In Successfuly");
+            return new ResponseMessage(HttpStatusCode.Accepted, jwtToken);
         }
     }
 }

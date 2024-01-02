@@ -30,6 +30,9 @@
               "/Users/michal/Desktop/PreciousStonesShop/Backend/Domain/IntelligentStore.Domain.csproj": {
                 "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Domain/IntelligentStore.Domain.csproj"
               },
+              "/Users/michal/Desktop/PreciousStonesShop/Backend/IntelligentStore.SignalR/IntelligentStore.SignalR.csproj": {
+                "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/IntelligentStore.SignalR/IntelligentStore.SignalR.csproj"
+              },
               "/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Shared.csproj": {
                 "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Shared.csproj"
               }
@@ -283,6 +286,69 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/michal/Desktop/PreciousStonesShop/Backend/IntelligentStore.SignalR/IntelligentStore.SignalR.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/michal/Desktop/PreciousStonesShop/Backend/IntelligentStore.SignalR/IntelligentStore.SignalR.csproj",
+        "projectName": "IntelligentStore.SignalR",
+        "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/IntelligentStore.SignalR/IntelligentStore.SignalR.csproj",
+        "packagesPath": "/Users/michal/.nuget/packages/",
+        "outputPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/IntelligentStore.SignalR/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/michal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Shared.csproj": {
+                "projectPath": "/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

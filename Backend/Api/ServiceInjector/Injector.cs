@@ -1,15 +1,8 @@
-﻿using System;
-using IntelligentStore.Infrastructure;
-using Microsoft.Extensions.DependencyInjection;
+﻿using IntelligentStore.Infrastructure;
 using Shared;
 using IntelligentStore.Domain;
-using System.Reflection;
 using IntelligentStore.Application;
-using IntelligentStore.Infrastructure.Policies;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Builder;
+using IntelligentStore.SignalR;
 
 namespace IntelligentStore.ServiceInjector.Api
 {
@@ -17,11 +10,13 @@ namespace IntelligentStore.ServiceInjector.Api
     {
         public static IServiceCollection AddService(this IServiceCollection services)
         {
+            services.AddRazorPages();
             services.AddMiddlewares();
-            services.AddApplication();
+            services.AddWebSocketMessage();
             services.AddDomain();
             services.AddInfrastructure();
             services.AddShared();
+            services.AddApplication();
             services.AddControllers();
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
@@ -30,15 +25,32 @@ namespace IntelligentStore.ServiceInjector.Api
                 c.EnableAnnotations();
             });
 
+            services.AddCors(c =>
+            {
+                c.AddPolicy(
+                    "AllowOrigin",
+                    options =>
+                    {
+                        options
+                            .WithOrigins("http://localhost:3000", "http://localhost:3000/")
+                            .AllowAnyHeader()
+                            .AllowCredentials()
+                            .AllowAnyMethod();
+                    }
+                );
+            });
             return services;
         }
 
         public static IApplicationBuilder UseService(this IApplicationBuilder app)
         {
+            app.UseCors("AllowOrigin");
             app.UseMiddlewares();
+            app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseShared();
+            app.UseApplication();
             app.UseSwagger();
             app.UseSwaggerUI();
             app.UseHttpsRedirection();

@@ -1,11 +1,34 @@
 {
   "Version": 1,
-  "Hash": "cTeKhy4Lb9kCoxuRvy/TKLj570T551RMwIlxfQJ1TAo=",
+  "Hash": "DYYO45hH4kiQM/vvk+NEsFzTrTgALT4ArYDHv+VzE1Q=",
   "Source": "Tests",
   "BasePath": "_content/Tests",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/Users/michal/Desktop/PreciousStonesShop/Backend/Domain/IntelligentStore.Domain.csproj",
+      "Version": 2,
+      "Source": "IntelligentStore.Domain",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
+    },
+    {
+      "Identity": "/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Shared.csproj",
+      "Version": 2,
+      "Source": "Shared",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }

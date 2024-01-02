@@ -1,0 +1,19 @@
+.pagination-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* odstęp od elementów nad przyciskami */
+  padding-bottom: 20px;
+}
+
+.pagination-buttons button {
+  padding: 10px 20px;
+
+  margin: 0 5px;
+  height: 50px;
+  background-color: #080909;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

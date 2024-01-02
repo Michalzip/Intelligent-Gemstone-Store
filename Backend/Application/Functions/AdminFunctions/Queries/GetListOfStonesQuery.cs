@@ -1,9 +1,8 @@
-﻿using System;
-using MediatR;
-using System.Net;
+﻿using MediatR;
 using IntelligentStore.Application.External;
 using Shared.Providers;
-using IntelligentStore.Application.DTOs;
+using Microsoft.AspNetCore.SignalR;
+using IntelligentStore.SignalR.Hubs;
 
 namespace IntelligentStore.Application.Functions.AdminFunctions.Queries
 {
@@ -26,10 +25,15 @@ namespace IntelligentStore.Application.Functions.AdminFunctions.Queries
             : IRequestHandler<GetListOfStonesQuery, List<GemstoneModelProvider>>
         {
             private readonly IExternalServiceFactory _externalServiceFactory;
+            private readonly IHubContext<WebSocketHub> _hubContext;
 
-            public GetListOfStones(IExternalServiceFactory externalServiceFactory)
+            public GetListOfStones(
+                IExternalServiceFactory externalServiceFactory,
+                IHubContext<WebSocketHub> hubContext
+            )
             {
                 _externalServiceFactory = externalServiceFactory;
+                _hubContext = hubContext;
             }
 
             async Task<List<GemstoneModelProvider>> IRequestHandler<
@@ -37,12 +41,16 @@ namespace IntelligentStore.Application.Functions.AdminFunctions.Queries
                 List<GemstoneModelProvider>
             >.Handle(GetListOfStonesQuery request, CancellationToken cancellationToken)
             {
-                return await _externalServiceFactory.GetAllExternalServiceData(
+                var gemstoneData = await _externalServiceFactory.GetAllExternalServiceData(
                     request.Phrase,
                     request.MinPrice,
                     request.MaxPrice,
                     request.Offset
                 );
+
+                await _hubContext.Clients.All.SendAsync("ReceiveMessage", gemstoneData);
+
+                return gemstoneData;
             }
         }
     }

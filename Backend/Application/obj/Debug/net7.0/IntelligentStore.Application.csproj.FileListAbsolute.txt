@@ -25,3 +25,5 @@
 /Users/michal/Desktop/PreciousStonesShop/Backend/Application/obj/Debug/net7.0/ref/IntelligentStore.Application.dll
 /Users/michal/Desktop/PreciousStonesShop/Backend/Application/bin/Debug/net7.0/IntelligentStore.Domain.dll
 /Users/michal/Desktop/PreciousStonesShop/Backend/Application/bin/Debug/net7.0/IntelligentStore.Domain.pdb
+/Users/michal/Desktop/PreciousStonesShop/Backend/Application/bin/Debug/net7.0/IntelligentStore.SignalR.dll
+/Users/michal/Desktop/PreciousStonesShop/Backend/Application/bin/Debug/net7.0/IntelligentStore.SignalR.pdb

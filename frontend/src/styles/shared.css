@@ -1,0 +1,15 @@
+body {
+  background-color: #515151;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+.title {
+  font-size: 4em;
+  font-weight: bold;
+  padding: 5px 5px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgb(69, 60, 55);
+}

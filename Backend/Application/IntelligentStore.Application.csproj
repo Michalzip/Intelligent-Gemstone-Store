@@ -42,6 +42,9 @@
     <ProjectReference Include="..\Domain\IntelligentStore.Domain.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+    <ProjectReference Include="..\IntelligentStore.SignalR\IntelligentStore.SignalR.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Update="Properties\launchSettings.json">

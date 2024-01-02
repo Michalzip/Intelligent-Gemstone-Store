@@ -29,3 +29,5 @@
 /Users/michal/Desktop/PreciousStonesShop/Backend/Infrastructure/bin/Debug/net7.0/IntelligentStore.Domain.pdb
 /Users/michal/Desktop/PreciousStonesShop/Backend/Infrastructure/bin/Debug/net7.0/IntelligentStore.Integrations.Ebay.dll
 /Users/michal/Desktop/PreciousStonesShop/Backend/Infrastructure/bin/Debug/net7.0/IntelligentStore.Integrations.Ebay.pdb
+/Users/michal/Desktop/PreciousStonesShop/Backend/Infrastructure/bin/Debug/net7.0/IntelligentStore.SignalR.dll
+/Users/michal/Desktop/PreciousStonesShop/Backend/Infrastructure/bin/Debug/net7.0/IntelligentStore.SignalR.pdb

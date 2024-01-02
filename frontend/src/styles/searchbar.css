@@ -1,0 +1,43 @@
+.search-bar button:hover {
+  background-color: #2980b9;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  max-width: 1200px; /* Ta sama szerokość co .message-list */
+  margin: 0 auto; /* Wyśrodkowanie wzdłuż osi poziomej */
+  padding: 30px;
+}
+
+.search-bar input[type="text"] {
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+
+  width: 100%; /* Aby input zajmował całą dostępną szerokość */
+}
+.search-bar input[type="number"] {
+  height: 50px;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 100px; /* Dostosuj szerokość inputów liczbowych */
+}
+
+.search-bar button {
+  height: 50px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #010101;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

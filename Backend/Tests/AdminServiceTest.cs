@@ -16,22 +16,17 @@ namespace Tests
             _adminServiceFixture = adminServiceFixture;
         }
 
-        //? w edytorze jest opcja do testow wiec poprstu wybieram sobie np ta funckje do testowania
-        //! tutaj odnosnik co dalej..
-
-        //https://github.com/KevinDockx/UnitTestingAspNetCore6WebAPI/blob/cf84a8e3fdfd2644251b3cf30f951f8885b76f7a/Finished%20solution/EmployeeManagement.Test/MoqTests.cs
         [Fact]
-        public void InsertData_IntoAdminTestDataRepository_AndRetrieveExpectedResult()
+        public async Task InsertData_IntoAdminTestDataRepository_AndRetrieveExpectedResult()
         {
             // Arrange
-            var user = _adminServiceFixture.adminRepository;
+            var userEmail = "example@example.com";
 
             // ACT
-            //USER.DODAJ DANE
+            var user = await _adminServiceFixture.adminRepository.GetAsync("example@example.com");
 
             // Assert
-
-            //ustaw oczekiwania
+            Assert.NotNull(user);
         }
     }
 }

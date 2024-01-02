@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelligentStore.Api", "Api
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{59D1CA96-17D0-4532-92EC-58D908743305}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelligentStore.SignalR", "IntelligentStore.SignalR\IntelligentStore.SignalR.csproj", "{0FDAA060-298E-407B-B6BC-7BFD14933AF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{59D1CA96-17D0-4532-92EC-58D908743305}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59D1CA96-17D0-4532-92EC-58D908743305}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59D1CA96-17D0-4532-92EC-58D908743305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FDAA060-298E-407B-B6BC-7BFD14933AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FDAA060-298E-407B-B6BC-7BFD14933AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FDAA060-298E-407B-B6BC-7BFD14933AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FDAA060-298E-407B-B6BC-7BFD14933AF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,5 +85,6 @@ Global
 		{8385A2D3-35DF-4972-8C86-0C1CCECBA233} = {1CCD3F16-2CAB-48A7-BCB3-207689F9DBE4}
 		{EEA19ABA-A3FF-4B41-8ACA-8AC038345616} = {F4F52B1B-F63B-48E1-854C-ED82B4A338F1}
 		{59D1CA96-17D0-4532-92EC-58D908743305} = {F4F52B1B-F63B-48E1-854C-ED82B4A338F1}
+		{0FDAA060-298E-407B-B6BC-7BFD14933AF1} = {F4F52B1B-F63B-48E1-854C-ED82B4A338F1}
 	EndGlobalSection
 EndGlobal

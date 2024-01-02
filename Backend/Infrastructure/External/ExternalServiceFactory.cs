@@ -5,7 +5,7 @@ namespace IntelligentStore.Infrastructure.External
 {
     internal sealed class ExternalServiceFactory : IExternalServiceFactory
     {
-        private const int LIMIT = 10;
+        private const int LIMIT = 9;
         private readonly IEnumerable<IExternalService> _externalServices;
 
         public ExternalServiceFactory(IEnumerable<IExternalService> externalServices)

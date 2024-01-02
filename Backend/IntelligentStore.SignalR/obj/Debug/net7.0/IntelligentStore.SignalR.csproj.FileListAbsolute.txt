@@ -1,0 +1,17 @@
+/Users/michal/Desktop/PreciousStonesShop/Backend/IntelligentStore.SignalR/bin/Debug/net7.0/appsettings.Development.json
+/Users/michal/Desktop/PreciousStonesShop/Backend/IntelligentStore.SignalR/bin/Debug/net7.0/appsettings.json
+/Users/michal/Desktop/PreciousStonesShop/Backend/IntelligentStore.SignalR/bin/Debug/net7.0/IntelligentStore.SignalR.deps.json
+/Users/michal/Desktop/PreciousStonesShop/Backend/IntelligentStore.SignalR/bin/Debug/net7.0/IntelligentStore.SignalR.dll
+/Users/michal/Desktop/PreciousStonesShop/Backend/IntelligentStore.SignalR/bin/Debug/net7.0/IntelligentStore.SignalR.pdb
+/Users/michal/Desktop/PreciousStonesShop/Backend/IntelligentStore.SignalR/bin/Debug/net7.0/Shared.dll
+/Users/michal/Desktop/PreciousStonesShop/Backend/IntelligentStore.SignalR/bin/Debug/net7.0/Shared.pdb
+/Users/michal/Desktop/PreciousStonesShop/Backend/IntelligentStore.SignalR/obj/Debug/net7.0/IntelligentStore.SignalR.csproj.AssemblyReference.cache
+/Users/michal/Desktop/PreciousStonesShop/Backend/IntelligentStore.SignalR/obj/Debug/net7.0/IntelligentStore.SignalR.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michal/Desktop/PreciousStonesShop/Backend/IntelligentStore.SignalR/obj/Debug/net7.0/IntelligentStore.SignalR.AssemblyInfoInputs.cache
+/Users/michal/Desktop/PreciousStonesShop/Backend/IntelligentStore.SignalR/obj/Debug/net7.0/IntelligentStore.SignalR.AssemblyInfo.cs
+/Users/michal/Desktop/PreciousStonesShop/Backend/IntelligentStore.SignalR/obj/Debug/net7.0/IntelligentStore.SignalR.csproj.CoreCompileInputs.cache
+/Users/michal/Desktop/PreciousStonesShop/Backend/IntelligentStore.SignalR/obj/Debug/net7.0/IntelligentStore.SignalR.csproj.CopyComplete
+/Users/michal/Desktop/PreciousStonesShop/Backend/IntelligentStore.SignalR/obj/Debug/net7.0/IntelligentStore.SignalR.dll
+/Users/michal/Desktop/PreciousStonesShop/Backend/IntelligentStore.SignalR/obj/Debug/net7.0/refint/IntelligentStore.SignalR.dll
+/Users/michal/Desktop/PreciousStonesShop/Backend/IntelligentStore.SignalR/obj/Debug/net7.0/IntelligentStore.SignalR.pdb
+/Users/michal/Desktop/PreciousStonesShop/Backend/IntelligentStore.SignalR/obj/Debug/net7.0/ref/IntelligentStore.SignalR.dll

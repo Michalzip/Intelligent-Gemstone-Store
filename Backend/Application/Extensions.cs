@@ -1,6 +1,6 @@
-﻿using System;
-using System.Reflection;
+﻿using System.Reflection;
 using MediatR;
+using IntelligentStore.SignalR;
 
 namespace IntelligentStore.Application
 {
@@ -11,7 +11,15 @@ namespace IntelligentStore.Application
             services.AddMediatR(
                 cfg => cfg.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly())
             );
+            services.AddWebSocketMessage();
             return services;
+        }
+
+        public static IApplicationBuilder UseApplication(this IApplicationBuilder app)
+        {
+            app.UseWebSocketMessage();
+
+            return app;
         }
     }
 }

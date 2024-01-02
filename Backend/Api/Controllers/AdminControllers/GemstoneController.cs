@@ -1,5 +1,4 @@
 ﻿using IntelligentStore.Application.DTOs;
-using IntelligentStore.Application.Functions.AdminFunctions.Commands;
 using IntelligentStore.Application.Functions.AdminFunctions.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
@@ -33,12 +32,5 @@ public class GemstoneController : ControllerBase
                 priceDto.PageNumber
             )
         );
-    }
-
-    [SwaggerOperation(Summary = "Admin order some stones")]
-    [HttpPost("admin/order-stones")]
-    public async Task OrderStonesToShop()
-    {
-        await _mediator.Send(new OrderStonesToShopCommand());
     }
 }

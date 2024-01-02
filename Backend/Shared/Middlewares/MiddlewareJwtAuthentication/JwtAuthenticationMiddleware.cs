@@ -22,8 +22,6 @@ namespace Shared.Middlewares.MiddlewareJwtAuthentication
 
         public async Task InvokeAsync(HttpContext context, RequestDelegate next)
         {
-         
-
             var token = _requestStorage.GetCookie(CookieKeys.APPLICATION_JWT_KEY);
 
             if (!string.IsNullOrEmpty(token))
@@ -31,7 +29,6 @@ namespace Shared.Middlewares.MiddlewareJwtAuthentication
                 context.Request.Headers.Add("Authorization", $"Bearer {token}");
                 _httpRequest.AddBearerTokenHeader(token);
             }
-           
 
             await next(context);
         }

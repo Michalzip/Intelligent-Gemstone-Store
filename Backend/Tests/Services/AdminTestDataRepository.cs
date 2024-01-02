@@ -1,46 +1,45 @@
 ﻿using System;
 using IntelligentStore.Domain;
 using IntelligentStore.Domain.IRepositories;
+using Microsoft.AspNetCore.Identity;
 using Shared;
 
 namespace Tests.Services
 {
     public class AdminTestDataRepository : IAdminRepository
     {
-        private List<User> _users;
+        private List<Admin> _admins;
 
         public AdminTestDataRepository()
         {
-            // mimic expensive creation process
-            Thread.Sleep(3000);
+            var passwordHasher = new PasswordHasher<Admin>();
 
-            var user1 = new User(
-                email: new Email("example@example.com"),
-                phoneNumber: new PhoneNumber("123456789"),
-                address: new Address(
-                    userId: Guid.NewGuid(),
-                    street: new Street("Main Street"),
-                    houseNumber: new HouseNumber("123"),
-                    postalCode: new PostalCode("12345"),
-                    city: new City("Example City")
+            _admins = new()
+            {
+                new Admin(
+                    email: new Email("example@example.com"),
+                    password: new Password(passwordHasher.HashPassword(default, "testPassword1")),
+                    createdAt: DateTime.UtcNow
                 ),
-                createdAt: DateTime.UtcNow
-            );
+                new Admin(
+                    email: new Email("another@example.com"),
+                    password: new Password(passwordHasher.HashPassword(default, "testPassword1")),
+                    createdAt: DateTime.UtcNow
+                )
+            };
 
-            var user2 = new User(
-                email: new Email("another@example.com"),
-                phoneNumber: new PhoneNumber("987654321"),
-                address: new Address(
-                    userId: Guid.NewGuid(),
-                    street: new Street("Second Avenue"),
-                    houseNumber: new HouseNumber("456"),
-                    postalCode: new PostalCode("54321"),
-                    city: new City("New City")
-                ),
-                createdAt: DateTime.UtcNow
-            );
-
-            _users = new() { user1, user2 };
+            // var user2 = new User(
+            //     email: new Email("another@example.com"),
+            //     phoneNumber: new PhoneNumber("987654321"),
+            //     address: new Address(
+            //         userId: Guid.NewGuid(),
+            //         street: new Street("Second Avenue"),
+            //         houseNumber: new HouseNumber("456"),
+            //         postalCode: new PostalCode("54321"),
+            //         city: new City("New City")
+            //     ),
+            //     createdAt: DateTime.UtcNow
+            // );
         }
 
         public Task AddAsync(Admin admin)
@@ -48,14 +47,14 @@ namespace Tests.Services
             throw new NotImplementedException();
         }
 
-        public Task<Admin> GetAsync(Guid id)
+        public async Task<Admin> GetAsync(Guid id)
         {
-            throw new NotImplementedException();
+            return _admins.FirstOrDefault(e => e.Id == id);
         }
 
-        public Task<Admin> GetAsync(string email)
+        public async Task<Admin> GetAsync(string email)
         {
-            throw new NotImplementedException();
+            return _admins.FirstOrDefault(e => e.Email == email);
         }
     }
 }
