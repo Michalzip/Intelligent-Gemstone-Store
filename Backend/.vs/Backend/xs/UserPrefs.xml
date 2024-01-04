@@ -1,105 +1,81 @@
 ﻿<Properties StartupConfiguration="{EEA19ABA-A3FF-4B41-8ACA-8AC038345616}|https">
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Loader/AssambleLoader.cs" relfile="Shared/Loader/AssambleLoader.cs" line="22" column="1" />
-      <Breakpoint file="/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Loader/AssambleLoader.cs" relfile="Shared/Loader/AssambleLoader.cs" line="17" column="1" />
-      <Breakpoint file="/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Loader/AssambleLoader.cs" relfile="Shared/Loader/AssambleLoader.cs" line="24" column="1" />
-      <Breakpoint file="/Users/michal/Desktop/PreciousStonesShop/Backend/Tests/MoqTests.cs" relfile="Tests/MoqTests.cs" line="33" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <DisabledProjects>
-    <String>Integrations.Allegro/Integrations.Allegro.csproj</String>
-    <String>Integrations/Integrations.Allegro/IntelligentStore.Integrations.Ebay.csproj</String>
-  </DisabledProjects>
   <MonoDevelop.Ide.ItemProperties.src.IntelligentStore.Application PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Integrations/Integrations.Ebay/Services/EbayService.cs">
+  <MonoDevelop.Ide.ItemProperties.src.IntelligentStore.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/EF/AdminInitializer.cs">
     <Files>
       <File FileName="Shared/IInitializer.cs" Line="5" Column="34" />
-      <File FileName="Infrastructure/EF/AdminInitializer.cs" />
-      <File FileName="IntelligentStore.SignalR/Services/WebSocketService.cs" Line="19" Column="40" />
-      <File FileName="Api/Controllers/AdminControllers/AuthorizationController.cs" Line="1" Column="1" />
-      <File FileName="Api/Controllers/AdminControllers/GemstoneController.cs" Line="30" Column="35" />
-      <File FileName="IntelligentStore.SignalR/Models/GemstoneDetail.cs" />
+      <File FileName="Infrastructure/EF/AdminInitializer.cs" Line="13" Column="47" />
+      <File FileName="IntelligentStore.SignalR/Services/WebSocketService.cs" />
+      <File FileName="Api/Controllers/AdminControllers/AuthorizationController.cs" />
+      <File FileName="Api/Controllers/AdminControllers/GemstoneController.cs" Line="13" Column="9" />
       <File FileName="IntelligentStore.SignalR/Models/AdminDetail.cs" />
-      <File FileName="Application/Functions/AdminFunctions/Queries/GetListOfStonesQuery.cs" Line="48" Column="35" />
+      <File FileName="Application/Functions/AdminFunctions/Queries/GetListOfStonesQuery.cs" />
       <File FileName="IntelligentStore.SignalR/Services/IWebSocketService.cs" />
       <File FileName="Integrations/Integrations.Ebay/Services/EbayService.cs" Line="67" Column="1" />
-      <File FileName="IntelligentStore.SignalR/Hubs/WebSocketHub.cs" Line="12" Column="1" />
-      <File FileName="Api/ServiceInjector/Injector.cs" Line="38" Column="47" />
+      <File FileName="IntelligentStore.SignalR/Hubs/WebSocketHub.cs" />
+      <File FileName="Api/ServiceInjector/Injector.cs" />
       <File FileName="IntelligentStore.SignalR/Extensions.cs" />
       <File FileName="Api/Program.cs" />
-      <File FileName="Application/Functions/AdminFunctions/Commands/SignInCommand.cs" />
-      <File FileName="Integrations/Integrations.Ebay/Authorization/EbayAuthorization.cs" Line="46" Column="1" />
+      <File FileName="Application/Functions/AdminFunctions/Commands/SignInCommand.cs" Line="44" Column="1" />
+      <File FileName="Integrations/Integrations.Ebay/Authorization/EbayAuthorization.cs" />
       <File FileName="Integrations/Integrations.Ebay/Extensions.cs" />
       <File FileName="Integrations/Integrations.Ebay/Configuration/ConfigurationEbay.cs" />
-      <File FileName="Infrastructure/External/ExternalServiceFactory.cs" Line="46" Column="1" />
+      <File FileName="Infrastructure/External/ExternalServiceFactory.cs" />
       <File FileName="Application/External/IExternalService.cs" />
       <File FileName="Shared/TokenExternalService/TokenExternalService.cs" />
       <File FileName="Infrastructure/MiddlewareExternalAuthorization/MiddlewareExternalAuthorization.cs" />
-      <File FileName="Shared/Middlewares/MiddlewareJwtAuthentication/JwtAuthenticationMiddleware.cs" />
-      <File FileName="Shared/Http/HttpRequests.cs" Line="62" Column="1" />
+      <File FileName="Shared/Middlewares/MiddlewareJwtAuthentication/JwtAuthenticationMiddleware.cs" Line="4" Column="1" />
+      <File FileName="Shared/Http/HttpRequests.cs" />
       <File FileName="Shared/Middlewares/MiddlewareErrorHandle/Abstract/AbstractExceptionMiddleware.cs" />
       <File FileName="Shared/TokenExternalService/ITokenExternalService.cs" />
-      <File FileName="Shared/Storage/IRequestStorage.cs" />
+      <File FileName="Shared/Storage/IRequestStorage.cs" Line="1" Column="1" />
       <File FileName="Shared/Storage/RequestStorage.cs" Line="43" Column="1" />
       <File FileName="Infrastructure/Extensions.cs" />
-      <File FileName="Shared/Extensions.cs" Line="1" Column="1" />
+      <File FileName="Shared/Extensions.cs" />
       <File FileName="Domain/Extensions.cs" />
       <File FileName="Application/Extensions.cs" />
-      <File FileName="Shared/CookiesKeys.cs" Line="1" Column="1" />
+      <File FileName="Shared/CookiesKeys.cs" />
       <File FileName="Shared/Services/AppInitializer.cs" />
-      <File FileName="Shared/appsettings.json" Line="1" Column="1" />
-      <File FileName="Shared/Http/IHttpRequests.cs" Line="1" Column="1" />
-      <File FileName="Application/DTOs/PriceDto.cs" Line="3" Column="18" />
-      <File FileName="Application/External/IExternalServiceFactory.cs" Line="6" Column="45" />
+      <File FileName="Shared/appsettings.json" />
+      <File FileName="Shared/Http/IHttpRequests.cs" />
+      <File FileName="Application/DTOs/PriceDto.cs" />
+      <File FileName="Application/External/IExternalServiceFactory.cs" />
+      <File FileName="Domain/IInfrastructureServiceInterface/ITokenService.cs" Line="6" Column="35" />
+      <File FileName="Infrastructure/Token/TokenService.cs" Line="29" Column="46" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Backend">
             <Node name="src" expanded="True">
-              <Node name="Integrations">
-                <Node name="IntelligentStore.Integrations.Ebay">
-                  <Node name="Authorization" expanded="True" />
-                  <Node name="Configuration" expanded="True" />
-                  <Node name="Endpoints" expanded="True" />
-                  <Node name="Services" expanded="True">
-                    <Node name="EbayService.cs" selected="True" />
-                  </Node>
-                </Node>
-              </Node>
-              <Node name="IntelligentStore.Api">
+              <Node name="IntelligentStore.Api" expanded="True">
                 <Node name="Controllers" expanded="True">
                   <Node name="AdminControllers" expanded="True" />
                 </Node>
                 <Node name="ServiceInjector" expanded="True" />
               </Node>
-              <Node name="IntelligentStore.Application">
-                <Node name="DTOs" expanded="True" />
-                <Node name="External" expanded="True" />
+              <Node name="IntelligentStore.Application" expanded="True">
                 <Node name="Functions" expanded="True">
                   <Node name="AdminFunctions" expanded="True">
                     <Node name="Commands" expanded="True" />
-                    <Node name="Queries" expanded="True" />
                   </Node>
                 </Node>
               </Node>
-              <Node name="IntelligentStore.Domain">
+              <Node name="IntelligentStore.Domain" expanded="True">
                 <Node name="IInfrastructureServiceInterface" expanded="True" />
-                <Node name="Services" expanded="True">
-                  <Node name="AdminService" expanded="True" />
+              </Node>
+              <Node name="IntelligentStore.Infrastructure" expanded="True">
+                <Node name="EF" expanded="True" />
+                <Node name="Token" expanded="True" />
+              </Node>
+              <Node name="IntelligentStore.SignalR" expanded="True" />
+              <Node name="Shared" expanded="True">
+                <Node name="Middlewares" expanded="True">
+                  <Node name="MiddlewareErrorHandle" expanded="True" />
+                  <Node name="MiddlewareJwtAuthentication" expanded="True" />
                 </Node>
-              </Node>
-              <Node name="IntelligentStore.Infrastructure">
-                <Node name="MiddlewareExternalAuthorization" expanded="True" />
-              </Node>
-              <Node name="IntelligentStore.SignalR">
-                <Node name="Hubs" expanded="True" />
-                <Node name="Services" expanded="True" />
-              </Node>
-              <Node name="Shared">
-                <Node name="Http" expanded="True" />
                 <Node name="Storage" expanded="True" />
               </Node>
             </Node>
@@ -108,6 +84,15 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Backend PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Loader/AssambleLoader.cs" relfile="Shared/Loader/AssambleLoader.cs" line="22" column="1" />
+      <Breakpoint file="/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Loader/AssambleLoader.cs" relfile="Shared/Loader/AssambleLoader.cs" line="17" column="1" />
+      <Breakpoint file="/Users/michal/Desktop/PreciousStonesShop/Backend/Shared/Loader/AssambleLoader.cs" relfile="Shared/Loader/AssambleLoader.cs" line="24" column="1" />
+      <Breakpoint file="/Users/michal/Desktop/PreciousStonesShop/Backend/Tests/MoqTests.cs" relfile="Tests/MoqTests.cs" line="33" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
     <Watch file="../../../Infrastructure/External/ExternalServiceFactory.cs" line="18" column="16" endLine="18" endColumn="53" offsetX="-1" offsetY="-1" expression="dataFromServices" liveUpdate="False" />
     <Watch file="../../../Shared/Token/TokenService.cs" line="17" column="16" endLine="17" endColumn="66" offsetX="-1" offsetY="-1" expression="jwtToken" liveUpdate="False" />
@@ -116,7 +101,8 @@
     <Watch file="../../../Tests/MoqTests.cs" line="29" column="20" endLine="29" endColumn="103" offsetX="-1" offsetY="-1" expression="admin" liveUpdate="False" />
     <Watch file="../../../Tests/MoqTests.cs" line="25" column="12" endLine="25" endColumn="30" offsetX="-1" offsetY="-1" expression="passwordHasherMock" liveUpdate="False" />
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
-  <MonoDevelop.Ide.ItemProperties.Backend PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.src.IntelligentStore.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <DisabledProjects>
+    <String>Integrations.Allegro/Integrations.Allegro.csproj</String>
+    <String>Integrations/Integrations.Allegro/IntelligentStore.Integrations.Ebay.csproj</String>
+  </DisabledProjects>
 </Properties>

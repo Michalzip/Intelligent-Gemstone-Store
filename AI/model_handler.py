@@ -19,7 +19,7 @@ class ModelHandler:
         predictions = model.predict(scaler_data)
 
         for pred in predictions:
-            print(f"Przewidziana wartość: {pred}")
+            print(f"predict value: {pred}")
         return predictions
 
 

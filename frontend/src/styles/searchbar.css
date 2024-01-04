@@ -7,8 +7,8 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
-  max-width: 1200px; /* Ta sama szerokość co .message-list */
-  margin: 0 auto; /* Wyśrodkowanie wzdłuż osi poziomej */
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 30px;
 }
 
@@ -19,7 +19,7 @@
   border-radius: 5px;
   font-size: 16px;
 
-  width: 100%; /* Aby input zajmował całą dostępną szerokość */
+  width: 100%;
 }
 .search-bar input[type="number"] {
   height: 50px;
@@ -27,7 +27,7 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 14px;
-  width: 100px; /* Dostosuj szerokość inputów liczbowych */
+  width: 100px;
 }
 
 .search-bar button {

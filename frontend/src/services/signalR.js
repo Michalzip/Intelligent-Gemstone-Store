@@ -1,11 +1,10 @@
 import * as signalR from "@microsoft/signalr";
 import { fetchGemstoneData } from "../api/fetchGemstoneData";
 
-let connection; // Deklarujemy zmienną przechowującą połączenie, widoczną tylko w tym module
+let connection;
 
 export const initializeSignalRConnection = (handleReceivedMessage) => {
   if (!connection) {
-    // Sprawdzamy, czy połączenie już istnieje
     connection = new signalR.HubConnectionBuilder()
       .withUrl("https://localhost:7294/WebSocketMessageHub")
       .build();
